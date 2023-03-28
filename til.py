@@ -56,9 +56,6 @@ def battle(player, monster):
             player.attack(monster)
         elif choice == "2":
             player.magic_attack(monster)
-        elif choice == "3":
-            print("You ran away!")
-            return
         else:
             print("1,2 선택")
             continue
